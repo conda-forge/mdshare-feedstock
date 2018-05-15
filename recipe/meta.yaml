@@ -1,6 +1,6 @@
 {% set name = "mdshare" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "ff98d9506994458758b67377d2090fe7e2e7a98e50d3ba407a3e2e188dc461d5" %}
+{% set version = "0.3.1" %}
+{% set sha256 = "0969e2d4c3097af56090d791b1911139163c8bb0c36772f13b4af25d1636d720" %}
 
 package:
   name: {{ name|lower }}
@@ -27,6 +27,7 @@ requirements:
   run:
     - python
     - setuptools
+    - humanfriendly
 
 test:
   imports:
