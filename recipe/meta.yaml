@@ -1,6 +1,6 @@
 {% set name = "mdshare" %}
-{% set version = "0.3.2" %}
-{% set sha256 = "ac9d05bae60ac0cb95702e8560e2f9608a96720305f9461c270ed20e1892b874" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "cd6df57c12cd31eb493c176ab90468156ab376e1b467ce57334c89d196733870" %}
 
 package:
   name: {{ name|lower }}
@@ -28,6 +28,10 @@ requirements:
     - python
     - setuptools
     - humanfriendly
+    - pyyaml
+    - tqdm
+    - requests
+    - progress_reporter
 
 test:
   imports:
