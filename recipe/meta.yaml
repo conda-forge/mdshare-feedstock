@@ -1,6 +1,6 @@
 {% set name = "mdshare" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "cd6df57c12cd31eb493c176ab90468156ab376e1b467ce57334c89d196733870" %}
+{% set version = "0.4.1" %}
+{% set sha256 = "4077de4f4ff36c10e5431b3639cbc40a7ffa775319f5772843ecd323aa539dc0" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   #noarch: python
-  number: 1002
-  skip: True  # [py2k]
+  number: 0
+  skip: true  # [py2k]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -43,7 +43,7 @@ about:
   license: LGPL-3.0
   license_family: LGPL
   license_file: LICENSE
-  summary: 'Easy access to shared MD data.'
+  summary: Easy access to shared MD data.
 
 extra:
   recipe-maintainers:
