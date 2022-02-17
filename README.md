@@ -235,4 +235,5 @@ Feedstock Maintainers
 
 * [@clonker](https://github.com/clonker/)
 * [@cwehmeyer](https://github.com/cwehmeyer/)
+* [@thempel](https://github.com/thempel/)
 
