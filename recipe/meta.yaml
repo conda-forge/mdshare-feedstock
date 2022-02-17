@@ -1,6 +1,6 @@
 {% set name = "mdshare" %}
-{% set version = "0.4.1" %}
-{% set sha256 = "4077de4f4ff36c10e5431b3639cbc40a7ffa775319f5772843ecd323aa539dc0" %}
+{% set version = "0.4.2" %}
+{% set sha256 = "9b07ed5b23f4392eb7b7e75ea0bc200a0b8fcfee0115e5dee5bf87e1e6d0c248" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   #noarch: python
-  number: 1
+  number: 0
   skip: true  # [py2k]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -49,3 +49,4 @@ extra:
   recipe-maintainers:
     - cwehmeyer
     - clonker
+    - thempel
