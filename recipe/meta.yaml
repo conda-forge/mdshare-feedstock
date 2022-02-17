@@ -1,6 +1,6 @@
 {% set name = "mdshare" %}
 {% set version = "0.4.2" %}
-{% set sha256 = "166c2ab43c3635f7531517d525a5db8f059a514d534bf213e16248df4c4b8a89" %}
+{% set sha256 = "9b07ed5b23f4392eb7b7e75ea0bc200a0b8fcfee0115e5dee5bf87e1e6d0c248" %}
 
 package:
   name: {{ name|lower }}
