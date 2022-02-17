@@ -1,6 +1,6 @@
 {% set name = "mdshare" %}
-{% set version = "0.4.1" %}
-{% set sha256 = "4077de4f4ff36c10e5431b3639cbc40a7ffa775319f5772843ecd323aa539dc0" %}
+{% set version = "0.4.2" %}
+{% set sha256 = "166c2ab43c3635f7531517d525a5db8f059a514d534bf213e16248df4c4b8a89" %}
 
 package:
   name: {{ name|lower }}
@@ -49,3 +49,4 @@ extra:
   recipe-maintainers:
     - cwehmeyer
     - clonker
+    - thempel
